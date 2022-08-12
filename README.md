@@ -50,7 +50,6 @@ and then
 $ cd ../WeUsThemTest
 $ composer install
 $ php artisan serve
-$ npm install && npm run dev 
 ```
 
 

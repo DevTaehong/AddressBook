@@ -10,7 +10,6 @@
         "guzzlehttp/guzzle": "^7.2",
         "intervention/image": "^2.7",
         "kyslik/column-sortable": "^6.4",
-        "laravel/breeze": "^1.11",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
@@ -50,8 +49,7 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ],
-        "prestart": "npm install && npm run dev"
+        ]
     },
     "extra": {
         "laravel": {
