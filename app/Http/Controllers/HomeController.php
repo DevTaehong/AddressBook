@@ -42,7 +42,6 @@ class HomeController extends Controller
         $response = Response::make($image_file->encode('jpeg'));
 
         $response->header('Content-Type', 'image/jpeg');
-
         return $response;
     }
 
