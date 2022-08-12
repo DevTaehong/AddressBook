@@ -51,9 +51,9 @@ class HomeController extends Controller
         $search = request('search');
         $contacts = Contact::where('last_name', 'LIKE', '%' . $search . '%' )->get();
 
-        if (count ( $contacts ) > 0)
+        if (count($contacts) > 0)
             return view ( 'home',compact('contacts'))->withDetails($contacts)->withQuery($search);
         else
-            return view ( 'home',compact('contacts'))->withMessage ( 'Try to search again!' );
+            return view ( 'home',compact('contacts'))->withMessage('Try to search again!');
     }
 }
