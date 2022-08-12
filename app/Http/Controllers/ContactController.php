@@ -94,7 +94,7 @@ class ContactController extends Controller
             'last_name' => 'required',
             'email' => 'required|string|email|max:255',
             'phone' => 'required|min:10|regex:/^([0-9\s\-\+\(\)]*)$/',
-            'image' => 'image|mimes:jpeg,png,jpg,gif,svg|size:200'
+            'image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:500'
         ]);
 
         if(array_key_exists('image', $data)) {
