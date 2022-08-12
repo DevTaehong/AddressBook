@@ -17,11 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Route::resource('/contacts',  'App\Http\Controllers\ContactController');
-Route::get('store_image/fetch_image/{id}', 'App\Http\Controllers\HomeController@fetch_image');
-
-Route::post('/search', 'App\Http\Controllers\HomeController@retrive');
+require __DIR__.'/auth.php';
