@@ -65,9 +65,6 @@ Room for improvement:
 To do:
 - Functionality to quickly and easily share contacts to other users.
 
-## Acknowledgements
-- This project was inspired by WeUsThem Inc.
-
 ## Contact
 Created by [@devtaehong](https://www.github.com/DevTaehong/)
 
