@@ -34,7 +34,8 @@
 ### 1. A list of contacts
 ![Screen Shot 2022-08-12 at 3 45 04 PM](https://user-images.githubusercontent.com/71358207/184423968-07a12e47-4cbb-4fd2-8c8f-230f947df251.png)
 ### 2. Add contact page
-![Screen Shot 2022-08-12 at 3 45 29 PM](https://user-images.githubusercontent.com/71358207/184424019-a984fd4b-a759-4193-b13e-dbe45dcb11c3.png)
+![Screenshot 2023-01-03 at 8 26 48 PM](https://user-images.githubusercontent.com/71358207/210463217-ca9e9b0e-595c-4dc6-bcf0-e3c5038c81fa.png)
+
 ### 3. Search by last name
 ![Screen Shot 2022-08-12 at 3 45 48 PM](https://user-images.githubusercontent.com/71358207/184424072-74518f67-447c-4976-820a-52f91064031a.png)
 
@@ -47,7 +48,6 @@ DB_PASSWORD="Type your password"
 ```
 and then
 ```
-$ cd ../WeUsThemTest
 $ composer install
 $ php artisan serve
 ```
